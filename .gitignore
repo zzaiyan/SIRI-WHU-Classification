@@ -1,0 +1,80 @@
+# PyTorch project common .gitignore
+
+# Byte-compiled / caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Logs and databases
+*.log
+logs/
+*.sqlite3
+*.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# PyTorch / ML artifacts
+*.pth
+*.pt
+*.ckpt
+*.bin
+*.onnx
+checkpoints/
+runs/
+tb_logs/
+tensorboard/
+weights/
+models/
+outputs/
+results/
+predictions/
+*.h5
+*.hdf5
+*.npz
+*.npy
+*.t7
+
+# Datasets and caches
+data/
+datasets/
+downloaded/
+cache/
+.cache/
+
+# Testing / coverage
+.coverage
+htmlcov/
+
+# Type checking / test caches
+.mypy_cache/
+.pytest_cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.*
